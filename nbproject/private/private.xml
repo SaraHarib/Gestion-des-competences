@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/CompetenceDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/User.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/Competence.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/ClientDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/CategorieDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/ProfilCompetenceDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/AbstractDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/Client.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/ProfilCompetencePK.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/Categorie.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/Admin.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/entities/ProfilCompetence.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/AdminDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/UserDao.java</file>
+            <file>file:/C:/Users/Moi/Documents/NetBeansProjects/web/src/java/dao/IDao.java</file>
+        </group>
+    </open-files>
+</project-private>
