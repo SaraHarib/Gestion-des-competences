@@ -80,10 +80,17 @@ Ce projet vise à offrir une solution intuitive et performante pour répondre au
 ---
 
 ## **Exécution des tests** 🧪
-### **Création de tables**
-![Création de tables](./images/t1.png)  
-![Création de tables](./images/t2.png)  
-### **Insertion de données**
-![Insertion](./images/insertion.png)
-### **Filtrage**
-![Filtre](./images/filtre.png)
+### 🛠️**Création de tables**
+![Création de tables](./images/creation1.png)  
+![Création de tables](./images/creation2.png)  
+![Création de tables](./images/creation3.png)  
+![Création de tables](./images/creation4.png)  
+
+### 💾**Insertion de données**
+![Insertion](./images/insertion1.png)
+![Insertion](./images/insertion2.png)
+
+### 🔍**Filtrage**
+![Filtre](./images/filtrage1.png)
+![Filtre](./images/filtrage2.png)
+
