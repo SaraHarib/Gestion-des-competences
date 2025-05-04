@@ -76,20 +76,98 @@ Ce projet vise à offrir une solution intuitive et performante pour répondre au
 ---
 ## **Diagramme de classe** 🧩
 
-![Diagramme de classe](./images/diagclasses.png)
+![Diagramme de classe](./web/images/diagclasses.png)
 
 ---
 
 ## **Modèle conceptuel de la base de donnée** 🧠
 
-![Modèle conceptuel](./images/conception.png)
+![Modèle conceptuel](./web/imagesconception.png)
 
 ---
 
 
 ## **Architecture** 🧩
+SkillBoard/
+│
+├── Web Pages/
+│   ├── WEB-INF/
+│   │   └── glassfish-web.xml         # Configuration du déploiement GlassFish
+│   ├── images/                       # Répertoire pour les ressources images (non affichées ici)
+│   ├── Authentification.jsp          # Page de connexion
+│   ├── Inscription.jsp               # Page d'inscription client
+│   ├── forgotPassword.jsp            # Réinitialisation du mot de passe
+│   ├── graphe.jsp                    # Graphique des statistiques (Chart.js)
+│   ├── mesCompetences.jsp            # Liste des compétences du profil client
+│   ├── profil.jsp                    # Profil de l'utilisateur
+│   ├── statistiques.jsp              # Statistiques globales
+│   ├── updateMotdePasse.jsp          # Mise à jour du mot de passe
+│   ├── updateUser.jsp                # Mise à jour des informations du profil
+│   ├── users.jsp                     # Liste des utilisateurs (admin)
+│   └── verification.jsp              # Vérification du compte
+│
+├── Source Packages/
+│   ├── config/
+│   │   └── hibernate.cfg.xml         # Configuration Hibernate (connexion BD)
+│
+│   ├── controllers/                  # Contrôleurs Java (traitement des requêtes)
+│   │   ├── AdminController.java
+│   │   ├── AuthentificationController.java
+│   │   ├── ClientController.java
+│   │   ├── CompetenceController.java
+│   │   ├── DeconnexionController.java
+│   │   ├── InscriptionController.java
+│   │   ├── ProfilClientController.java
+│   │   ├── ProfilCompetenceController.java
+│   │   ├── ProfilCompetenceNiveauStatController.java
+│   │   ├── StatistiquesController.java
+│   │   ├── UpdatePasswordController.java
+│   │   ├── UserController.java
+│   │   └── VerificationController.java
+│
+│   ├── dao/                          # Accès aux données via Hibernate
+│   │   ├── AbstractDao.java
+│   │   ├── AdminDao.java
+│   │   ├── CategorieDao.java
+│   │   ├── ClientDao.java
+│   │   ├── CompetenceDao.java
+│   │   ├── ProfilCompetenceDao.java
+│   │   └── UserDao.java
+│
+│   ├── entities/                     # Entités JPA/Hibernate
+│   │   ├── Admin.java
+│   │   ├── Categorie.java
+│   │   ├── Client.java
+│   │   ├── Competence.java
+│   │   ├── ProfilCompetence.java
+│   │   ├── ProfilCompetencePK.java
+│   │   └── User.java
+│
+│   ├── mapper/
+│   │   └── CategorieCompetenceCount.java # Objet pour le mapping des statistiques
+│
+│   ├── services/                     # Logique métier
+│   │   ├── AdminService.java
+│   │   ├── ClientService.java
+│   │   ├── IService.java             # Interface commune
+│   │   ├── ProfilCompetenceService.java
+│   │   ├── SendMail.java             # Envoi d'emails via SMTP
+│   │   └── UserService.java
+│
+│   ├── test/                         # Tests unitaires
+│   │   ├── Test.java
+│   │   ├── TestCategorie.java
+│   │   ├── TestClients.java
+│   │   ├── TestCompetence.java
+│   │   ├── TestDate.java
+│   │   ├── TestEmail.java
+│   │   └── TestHibernateConnection.java
+│
+│   └── util/
+│       ├── HibernateUtil.java        # Initialisation de la SessionFactory Hibernate
+│       └── Util.java                 # Méthodes utilitaires
 
-![Architecture](./images/archi.png)
+![Architecture](./web/images/architecture.png)
 ---
 
 ## 🎥 **Vidéo Démonstrative**
