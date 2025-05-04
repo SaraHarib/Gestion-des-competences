@@ -71,7 +71,7 @@ Ce projet vise à offrir une solution intuitive et performante pour répondre au
 ---
 ## **Logo** 🧩
 
-![Logo](./images/logo.png)
+![Logo](./web/images/logo.png)
 
 ---
 ## **Diagramme de classe** 🧩
