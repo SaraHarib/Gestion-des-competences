@@ -167,6 +167,7 @@ SkillBoard/
 │       ├── HibernateUtil.java        # Initialisation de la SessionFactory Hibernate
 │       └── Util.java                 # Méthodes utilitaires
 
+
 ![Architecture](./web/images/architecture.png)
 ---
 
