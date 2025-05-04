@@ -71,7 +71,7 @@ Ce projet vise à offrir une solution intuitive et performante pour répondre au
 ---
 ## **Logo** 🧩
 
-![Logo](./web/images/logo.png)
+![Logo](./web/images/logo-bg.png)
 
 ---
 ## **Diagramme de classe** 🧩
@@ -82,7 +82,7 @@ Ce projet vise à offrir une solution intuitive et performante pour répondre au
 
 ## **Modèle conceptuel de la base de donnée** 🧠
 
-![Modèle conceptuel](./web/imagesconception.png)
+![Modèle conceptuel](./web/images/conception.png)
 
 ---
 
